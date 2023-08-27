@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/entropy"
+        android:orderInCategory="1"
+        android:title="Подсчёт энтропий" />
+    <item
+        android:id="@+id/char_probability"
+        android:title="P(x) символов"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/digram_probability"
+        android:title="P(x) биграмм"
+        android:orderInCategory="3"/>
+</menu>
